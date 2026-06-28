@@ -83,7 +83,7 @@ flowguide/
 
 ## Modules Built
 
-### 🧘 Intention & Mindfulness
+### Intention & Mindfulness
 - Morning / evening greeting based on time of day
 - Mood check-in (emoji scale 1–5)
 - Energy check-in (emoji scale 1–5)
@@ -93,27 +93,27 @@ flowguide/
 - Yoga/movement suggestion
 - Data saved per day + tour type, history stored in DB
 
-### 🗓️ Calendar
+### Calendar
 - Google Calendar integration (OAuth 2.0 — requires credentials.json from Google Cloud Console)
 - iCal / ICS file import (Outlook, Apple Calendar, any service)
 - Shows next 7 days of events
 - Auth flow: get URL → open in browser → paste code back
 
-### ✅ To-Do List
+### To-Do List
 - Add tasks with priority (low / normal / high)
 - Drag-and-drop reorder (@dnd-kit)
 - Toggle complete / incomplete
 - Pending and completed sections
 - Shared list support (via shared_key — UI not yet built)
 
-### 📓 Knowledge Notepad
+### Knowledge Notepad
 - Create / edit / delete notes
 - Auto-save while typing (800ms debounce)
 - Comma-separated tags
 - Filter by tag or full-text search
 - Shows preview + last-edited time
 
-### 🧾 Receipt Tracker
+### Receipt Tracker
 - Upload PDF or image (PNG, JPG, JPEG, WEBP)
 - OCR text extraction via pytesseract (Tesseract) + pdfplumber
 - Heuristic parsing: merchant name, amount, currency, date
@@ -122,7 +122,7 @@ flowguide/
 - Spending summary with bar chart per category
 - Receipt files stored in ~/.flowguide/receipts/
 
-### 🎂 Contacts & Birthdays
+### Contacts & Birthdays
 - Full contact book (name, email, phone, birthday, notes)
 - Birthday countdown (days until next birthday)
 - Upcoming birthdays banner (next 60 days)
@@ -157,14 +157,14 @@ Stored as key/value rows in SQLite `settings` table.
 ## Ideas / Backlog
 These have been discussed but not yet built:
 
-- 🌤️ **Daily Briefing module** — weather API + news digest
-- ~~📊 **Mood & Energy charts**~~ ✅ Done — see History page
-- 🌍 **Shared To-Do** — share a list with another person via URL/key
-- 🌙 **Dark mode** — calmer evening theme
-- 📱 **Mobile-responsive layout** — use from phone on same network
-- 🔔 **Desktop notifications** — nudge at tour time instead of opening browser
-- 🔗 **Custom Link Launcher module** — open favourite apps/URLs at tour start
-- 🔋 **Energy Check-In module** — standalone mood/energy tracker with history chart
+- **Daily Briefing module** — weather API + news digest
+- ~~**Mood & Energy charts**~~ Done — see History page
+- **Shared To-Do** — share a list with another person via URL/key
+- **Dark mode** — calmer evening theme
+- **Mobile-responsive layout** — use from phone on same network
+- **Desktop notifications** — nudge at tour time instead of opening browser
+- **Custom Link Launcher module** — open favourite apps/URLs at tour start
+- **Energy Check-In module** — standalone mood/energy tracker with history chart
 
 ---
 
