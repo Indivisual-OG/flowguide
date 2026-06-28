@@ -1,4 +1,4 @@
-# 🌿 FlowGuide
+# FlowGuide
 
 **Your daily guided tour — a mindful, modular ritual for the start and end of your workday.**
 
@@ -6,20 +6,20 @@ FlowGuide walks you through a sequence of personal modules — like a guided med
 
 ---
 
-## ✨ Modules
+## Modules
 
 | Module | Description |
 |---|---|
-| 🧘 **Intention & Mindfulness** | Set your daily intention, check your mood & energy, breathing timer, yoga suggestion |
-| 🗓️ **Calendar** | Google Calendar sync + iCal/Outlook import |
-| ✅ **To-Do List** | Drag-and-drop tasks with priorities |
-| 📓 **Knowledge Notepad** | Tagged notes, auto-save, full-text search |
-| 🧾 **Receipt Tracker** | Upload PDF/photo → OCR extraction → categorise → spending summary |
-| 🎂 **Contacts & Birthdays** | Contact book with upcoming birthday alerts |
+| **Intention & Mindfulness** | Set your daily intention, check your mood & energy, breathing timer, yoga suggestion |
+| **Calendar** | Google Calendar sync + iCal/Outlook import |
+| **To-Do List** | Drag-and-drop tasks with priorities |
+| **Knowledge Notepad** | Tagged notes, auto-save, full-text search |
+| **Receipt Tracker** | Upload PDF/photo → OCR extraction → categorise → spending summary |
+| **Contacts & Birthdays** | Contact book with upcoming birthday alerts |
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.10+
@@ -43,7 +43,7 @@ Then open **http://localhost:3000** in your browser.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 All settings are managed through the **Settings** page in the app:
 
@@ -54,7 +54,7 @@ All settings are managed through the **Settings** page in the app:
 
 ---
 
-## 🗓️ Google Calendar Setup
+## Google Calendar Setup
 
 1. Go to [Google Cloud Console](https://console.cloud.google.com/)
 2. Create a new project → Enable **Google Calendar API**
@@ -68,7 +68,7 @@ All settings are managed through the **Settings** page in the app:
 
 ---
 
-## ⏰ Auto-Launch Scheduler (Linux)
+## Auto-Launch Scheduler (Linux)
 
 To have FlowGuide automatically open in your browser at your set times:
 
@@ -82,7 +82,7 @@ This installs a lightweight background service that watches the clock and opens 
 
 ---
 
-## 📁 Data Storage
+## Data Storage
 
 All your data is stored **locally** on your machine:
 
@@ -97,7 +97,7 @@ No data ever leaves your machine (except Google Calendar API calls if you connec
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 
 - **Frontend:** React 18 + Vite + TailwindCSS
 - **Backend:** Python + FastAPI + SQLite
@@ -107,10 +107,10 @@ No data ever leaves your machine (except Google Calendar API calls if you connec
 
 ---
 
-## 🌱 Planned Modules
+## Planned Modules
 
-- 🌤️ Daily Briefing (weather + news digest)
-- 📊 Spending Dashboard (extended analytics)
-- 🔋 Energy & Mood Tracker (charts over time)
-- 🔗 Custom Link Launcher (open your key apps)
-- 🌍 Shared To-Do (share a list with someone else)
+- Daily Briefing (weather + news digest)
+- Spending Dashboard (extended analytics)
+- Energy & Mood Tracker (charts over time)
+- Custom Link Launcher (open your key apps)
+- Shared To-Do (share a list with someone else)
