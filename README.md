@@ -1,3 +1,9 @@
+This little tool was conceived on a rainy afternoon - and represents a little first exercise using AI (Claude!) for coding - I am a total n00b, but within 2 hours, I knew a LOT more, what syntax was, how to debug, and where attention needs to be directed. So cool, very creative in its own right, and truly educational :) I think, there is something to having AI meet me where I am at, and skills growing just like life growths - based on what is viable and feasible, instead of totally de novo :) Fabulous!
+
+Enjoy!
+
+--
+
 # FlowGuide
 
 **Your daily guided tour — a mindful, modular ritual for the start and end of your workday.**
